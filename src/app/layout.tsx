@@ -24,8 +24,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logo.png" />
+        <link rel="apple-touch-icon" href="/logo.png" />
+        <meta name="keywords" content="Ezzeldeen, full-stack developer, 
+        web developer, React developer, Laravel developer, JavaScript, PHP, 
+        MySQL, frontend, backend, 
+        portfolio, software engineer, programming, web design, HTML, CSS, developer Egypt" />
+        <title>Ezzeldeen | Full stack developer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Hi, I'm Ezzeldeen — a full-stack web developer specializing in React and Laravel. Check out my projects, skills, and contact me for freelance or full-time work." />
+        <meta name="theme-color" content="#f57812" />
+        <meta name="author" content="Ezzeldeen" />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-800 text-white`}
       >
         {children}
       </body>

@@ -1,26 +1,53 @@
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root{
+  scroll-behavior: smooth;
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.nav-item {
+  cursor: pointer;
+  color: white;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.nav-item:hover{
+    color : #f57812;
+}
+.nav-item:first-child{
+  color: #f57812;
+}
+.service-card{
+  height: 500px;
+}
+.grad-border {
+  padding: 3px;
+  background: conic-gradient(red, yellow, green, cyan, blue);
+  -webkit-mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
+  -webkit-mask-composite: destintion-out;
+  mask-composite: exclude;
+}
+.gallery-image {
+  width: 400px;
+  height: 250px;
+}
+.gallery-image:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.07);
+  cursor: pointer;
+}
+@media (max-width: 638px) {
+  .service-card{
+    height: 350px;
+  }
+  .gallery-image{
+    width: 300px;
+    height: 150px;
   }
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@media (min-width: 638px) and (max-width: 767px) {
+  .service-card {
+    height: 400px;
+  }
+  .gallery-image{
+    width: 350px;
+    height: 200px;
+  }
 }
