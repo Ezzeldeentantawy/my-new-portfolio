@@ -86,8 +86,8 @@ const About = () => {
                     where <span className="font-bold">pixel-perfect frontends</span> meet
                     <span className="font-bold"> scalable backends</span>.
                     By leveraging
-                    <span className="italic text-cyan-300"> React's virtual DOM</span> with
-                    <span className="italic text-red-300"> Laravel's API resources</span>,
+                    <span className="italic text-cyan-300"> React&#39;s virtual DOM</span> with
+                    <span className="italic text-red-300"> Laravel&#39;s API resources</span>,
                     I create applications that are as{' '}
                     <span className="underline text-fuchsia-300">performant</span>{' '}
                         as they are{' '}
@@ -96,7 +96,7 @@ const About = () => {
             </div>
             <p className="text-lg sm:text-xl md:text-2xl lg:3xl text-blue-500 font-semibold mb-4 mt-8">Why This Combo Wins:</p>
             <ol className="list-decimal list-inside space-y-4 text-md sm:text-lg md:text-xl lg:text-2xl">
-                <li>Speed + Stability: React's efficiency meets Laravel's secure backend</li>
+                <li>Speed + Stability: React&#39;s efficiency meets Laravel&#39;s secure backend</li>
                 <li>Future-Proof: Easily extendable architecture for growing needs</li>
                 <li>Perfect for agencies and startups needing flair & depth 🚀</li>
             </ol>

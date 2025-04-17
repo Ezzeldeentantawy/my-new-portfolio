@@ -75,10 +75,10 @@ export const Services = () => {
                     description={
                         <>
                             <p className="text-md">&#128900;<span className="font-bold">Site Speed Optimization:</span>
-                                I enhance your website's loading speed for better user experience and SEO rankings.
+                                I enhance your website&#39;s loading speed for better user experience and SEO rankings.
                             </p>
                             <p className="text-md">&#128900;<span className="font-bold">SEO Optimization:</span>
-                                I help improve your site's visibility with SEO best practices.
+                                I help improve your site&#39;s visibility with SEO best practices.
                             </p>
                         </>
                     }
@@ -91,7 +91,7 @@ export const Services = () => {
                     description={
                         <>
                             <p>
-                                I offer ongoing maintenance and support services to keep your website or app running smoothly. Whether it’s updating content, 
+                                I offer ongoing maintenance and support services to keep your website or app running smoothly. Whether it&#39;s updating content, 
                                 fixing bugs, or implementing security patches, I ensure your digital presence is always up to date and secure.
                             </p>
                         </>
