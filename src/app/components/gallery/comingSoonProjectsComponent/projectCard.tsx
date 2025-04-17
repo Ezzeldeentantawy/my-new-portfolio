@@ -1,5 +1,6 @@
 "use client";
 import React, {useState} from "react";
+import Image from "next/image";
 
 
 export const ProjectCard = () => {
@@ -12,9 +13,11 @@ export const ProjectCard = () => {
                 setShow(!show)
                 }}
                 >
-                    <img src="/gallery/todo.webp" 
+                    <Image src="/gallery/todo.webp" 
                     className="gallery-image rounded-2xl mb-5" 
                     alt="my old portfolio image"
+                    width={1000}
+                    height={1000}
                     loading="lazy"
                     />
                 </button>
@@ -23,7 +26,12 @@ export const ProjectCard = () => {
             {show && 
             <div className="fixed inset-0 bg-black flex items-center justify-center">
                 <div>
-                    <img className="w-92" src="/coming-soon.jpeg" alt="coming soon image" />
+                    <Image 
+                    src="/coming-soon.jpeg" 
+                    alt="coming soon image" 
+                    width={1000}
+                    height={1000}
+                    />
                 </div>
                 <div>
                     <button 

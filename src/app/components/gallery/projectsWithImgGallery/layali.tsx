@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react"
+import Image from "next/image";
 
 
 export const Layali = () => {
@@ -34,18 +35,23 @@ export const Layali = () => {
                     setIsShow(!isShow)
                 )}
                 >
-                    <img className="mb-5 rounded-2xl gallery-image"
+                    <Image className="mb-5 rounded-2xl gallery-image"
                     src={images[0]} 
-                    alt="my restaurant website photo" />
+                    alt="my restaurant website photo" 
+                    width={400}
+                    height={400}
+                    />
                 </button>
                 <h3 className="text-2xl">Restaurant website</h3>
             </div>
             {isShow && (
             <div className="fixed inset-0 flex bg-black backdrop-opacity-10 flex-col items-center justify-center z-50">
                     <div className="object-cover w-6/12">
-                        <img src={`/gallery/layali-elhelmia/img-${currentIndex + 1}.png`} 
+                        <Image src={`/gallery/layali-elhelmia/img-${currentIndex + 1}.png`} 
                         alt="Gallery" 
-                        className="rounded-2xl shadow-lg w-full h-full" 
+                        className="rounded-2xl shadow-lg"
+                        width={1000}
+                        height={1000}
                         loading="lazy"
                         />
                     </div>

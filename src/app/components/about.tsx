@@ -1,8 +1,9 @@
-"use client"; // Only if you're using Next.js App Router
+"use client";
 
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -28,8 +29,11 @@ const About = () => {
                 ease: "linear",
             });
         })
-        return () => animationOne.revert();
-        return () => animationTwo.revert();
+
+        return () => {
+            animationOne.revert();
+            animationTwo.revert();
+        };
         
     }, []);
 
@@ -46,8 +50,10 @@ const About = () => {
                             ref={borderRef}
                             className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 grad-border absolute rounded-full"
                         ></div>
-                        <img
-                            className="w-10 sm:w-14 md:w-16 logo"
+                        <Image
+                            className="w-12 sm:w-16 md:w-20 rounded-full"
+                            width={80}
+                            height={80}
                             src="/skills-images/react.png"
                             alt="react logo"
                         />
@@ -62,10 +68,12 @@ const About = () => {
                             ref={borderRefNd}
                             className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 grad-border absolute rounded-full"
                         ></div>
-                        <img
-                            className="w-10 sm:w-14 md:w-16"
-                            src="/skills-images/laravel.png"
-                            alt="laravel logo"
+                        <Image 
+                        className="w-10 sm:w-12 md:w-14 rounded-full"
+                        width={80}
+                        height={80}
+                        src="/skills-images/laravel.png"
+                        alt="laravel logo"
                         />
                     </div>
                 </div>

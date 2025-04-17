@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface Props{
     link : string;
@@ -17,10 +18,12 @@ export const ProjectWLink: React.FC<Props> = ({link, title, src, alt}) => {
                 target="_blank"
                 rel="noreferrer"
                 >
-                    <img src={src} 
+                    <Image src={src} 
                     className="gallery-image rounded-2xl" 
                     alt={alt}
                     loading="lazy"
+                    width={1000}
+                    height={1000}
                     />
                 </a>
                 <h3 className="text-2xl">{title}</h3>

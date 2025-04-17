@@ -1,6 +1,7 @@
 "use client";
 import gsap from "gsap"
 import { useEffect, useRef } from "react"
+import Image from "next/image";
 
 export const Title = () => {
     const title = useRef<HTMLHeadingElement>(null);
@@ -76,7 +77,12 @@ export const Title = () => {
                     </h2>
                 </div>
                 <div ref={MyPhoto} className="mask-l-from-70% mask-b-from-90% mb-4 sm:mb-0">
-                    <img src="/me2.webp" className="w-42 sm:w-48 md:w-52 lg:w-60 xl:w-72 2xl:w-80" alt="my photo" />
+                    <Image 
+                    src="/me2.webp" 
+                    alt="my photo" 
+                    width={250}
+                    height={250}
+                    />
                 </div>
             </div>
             <div ref={linksContainer} className="flex justify-center items-center gap-4 sm:gap-10">
@@ -86,7 +92,12 @@ export const Title = () => {
                         target="_blank" rel="noreferrer" aria-label={account.label}
                         id={`element${index + 1}`}
                         >
-                        <img className="w-full h-full" src={account.icon} alt={account.alt} />
+                        <Image 
+                        src={account.icon} 
+                        alt={account.alt} 
+                        width={50}
+                        height={50}
+                        />
                     </a>
                 ))}
             </div>
