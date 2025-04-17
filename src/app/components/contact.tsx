@@ -51,6 +51,7 @@ export const Contact: React.FC = () => {
             setSuccess(true);
             form.reset();
         } catch (error) {
+            console.error("Error sending contact form:", error);
             setError("Failed to send message. Please try again.");
         } finally {
             setIsSubmitting(false);

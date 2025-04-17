@@ -72,7 +72,7 @@ export const Title = () => {
                     <h1 ref={title} className="text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mb-2 sm:mb-4 md:mb-6 lg:mb-8 xl:mb-10 2xl:mb-10 font-bold text-white">Hello, My name is
                         <span className="text-orange-400"> Ezzeldeen Tantawy</span>
                     </h1>
-                    <h2 ref={subject} className="text-sm sm:text-md md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold">I'm a
+                    <h2 ref={subject} className="text-sm sm:text-md md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold">I&#39;m a
                         <span className="text-orange-400"> Full stack Developer</span>
                     </h2>
                 </div>

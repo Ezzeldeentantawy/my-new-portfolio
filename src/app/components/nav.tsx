@@ -1,11 +1,7 @@
 'use client';
-import { usePathname } from 'next/navigation';
 import { useState, useRef, useEffect } from 'react';
 import gsap from 'gsap';
-import { Gallery } from './gallery/gallery';
-
 export const Nav = () => {
-    const pathname = usePathname();
     const NavList = ['Home', 'Services', 'Skills', 'Gallery', 'Contact'];
     const [isOpen, setIsOpen] = useState(false);
     const navRef = useRef<HTMLDivElement>(null);

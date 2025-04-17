@@ -1,7 +1,6 @@
 "use client";
 import { useRef, useEffect } from "react";
 import { ServiceCard } from "./service-card";
-import ScrollTrigger from "gsap/ScrollTrigger";
 import gsap from "gsap";
 
 export const Services = () => {
