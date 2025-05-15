@@ -59,7 +59,6 @@ Name: ${name}
 Email: ${email}
 Phone: ${number}
 Subject: ${subject}
-
 Message:
 ${message}
     `.trim(),
