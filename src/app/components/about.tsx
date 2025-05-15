@@ -69,7 +69,7 @@ const About = () => {
                             className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 grad-border absolute rounded-full"
                         ></div>
                         <Image 
-                        className="w-10 sm:w-12 md:w-14 rounded-full"
+                        className="w-12 sm:w-14 md:w-16"
                         width={80}
                         height={80}
                         src="/skills-images/laravel.png"
