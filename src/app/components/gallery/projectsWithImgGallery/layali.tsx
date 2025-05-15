@@ -46,7 +46,7 @@ export const Layali = () => {
             </div>
             {isShow && (
             <div className="fixed inset-0 flex bg-black backdrop-opacity-10 flex-col items-center justify-center z-50">
-                    <div className="object-cover w-6/12">
+                    <div className="object-cover w-[280px] sm:w-[400px] md:w-[600px] h-[150px] sm:h-[250px] md:h-[400px]">
                         <Image src={`/gallery/layali-elhelmia/img-${currentIndex + 1}.png`} 
                         alt="Gallery" 
                         className="rounded-2xl shadow-lg"
