@@ -15,7 +15,7 @@ export const Contact: React.FC = () => {
     const [success, setSuccess] = useState(false);
 
     const sendContactForm = async (formData: FormData) => {
-        const response = await fetch(`https://my0new-portfolio-backend-production.up.railway.app/api/contact`, {
+        const response = await fetch(`/api/contact`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(formData),
