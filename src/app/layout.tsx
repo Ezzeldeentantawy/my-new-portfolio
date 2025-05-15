@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Ezzeldeen | Full stack developer",
   description: "Hi, I'm Ezzeldeen — a full-stack web developer specializing in React and Laravel. Check out my projects, skills, and contact me for freelance or full-time work.",
+  openGraph: {
+    title: 'Ezzeldeen | Full stack developer',
+    description: "Hi, I'm Ezzeldeen — a full- stack web developer specializing in React and Laravel.",
+  },
 };
 
 export default function RootLayout({
