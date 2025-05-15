@@ -61,8 +61,8 @@ Phone: ${number}
 Subject: ${subject}
 
 Message:
-${body.message}
-      `.trim(),
+${message}
+    `.trim(),
         };
 
         await transporter.sendMail(mailOptions);
