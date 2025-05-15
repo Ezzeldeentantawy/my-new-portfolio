@@ -8,10 +8,9 @@ interface ServiceCardProps {
     alt: string;
     title: string;
     description: React.ReactNode;
-    ref?: React.Ref<HTMLDivElement>;
 }
 
-export const ServiceCard: React.FC<ServiceCardProps> = ({src, alt, title, description, ref}) => {
+export const ServiceCard: React.FC<ServiceCardProps> = ({src, alt, title, description}) => {
     const serviceCardRef = useRef<HTMLDivElement>(null);
     useEffect(() => {
         if (serviceCardRef.current) {
