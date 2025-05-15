@@ -6,7 +6,7 @@ import Image from "next/image";
 export const ProjectCard = () => {
     const [show, setShow] = useState(false);
     return(
-        <div className="h-72 min-w-64 sm:min-w-80 md:min-w-92 ms-4 flex items-center justify-center">
+        <div className="min-w-80 sm:min-w-96 h-80 ms-4 flex items-center justify-center">
             <div className="flex items-center justify-center flex-col">
                 <button 
                 onClick={() => {

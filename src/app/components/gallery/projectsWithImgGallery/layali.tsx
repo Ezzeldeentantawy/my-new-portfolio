@@ -28,7 +28,7 @@ export const Layali = () => {
         setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
         };
     return(
-        <div className="flex justify-center items-center flex-col relative min-w-64 sm:min-w-80 md:min-w-92 h-72">
+        <div className="flex justify-center items-center flex-col relative min-w-80 sm:min-w-96 h-80">
             <div className="flex items-center justify-center flex-col">
                 <button 
                 onClick={() => (
