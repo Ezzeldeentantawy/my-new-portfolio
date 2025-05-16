@@ -8,8 +8,8 @@ export const Services = () => {
     
     return(
         <section id="services">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl text-center mt-16">Our <span className="text-orange-400">services</span></h1>
-            <div className="flex overflow-auto items-center justify-between px-4 mt-10">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl text-center mt-16">Our <span className="text-orange-400">services</span></h1>
+            <div className="flex flex-wrap gap-y-5 items-center justify-between px-4 mt-10">
                 <ServiceCard
                     src="/services/api.png"
                     alt="api development integration"

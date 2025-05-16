@@ -28,9 +28,9 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({src, alt, title, descri
         }
     }, [])
     return(
-        <div ref={serviceCardRef} className="w-72 sm:w-80 md:w-92 service-card border border-black rounded-2xl 
+        <div ref={serviceCardRef} className="w-96 sm:w-[400px] h-[500px] border border-black rounded-2xl 
         shadow-xl shadow-black flex flex-col items-center justify-center mx-1 sm:mx-2 lg:mx-4">  
-            <div className="w-92 text-center flex flex-col items-center justify-center">
+            <div className="text-center flex flex-col items-center justify-center">
                 <Image 
                 src={src} 
                 alt={alt} 

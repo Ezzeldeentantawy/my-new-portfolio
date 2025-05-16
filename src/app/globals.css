@@ -14,9 +14,6 @@
 .nav-item:first-child{
   color: #f57812;
 }
-.service-card{
-  height: 500px;
-}
 .grad-border {
   padding: 3px;
   background: conic-gradient(red, yellow, green, cyan, blue);
