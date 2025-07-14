@@ -1,6 +1,6 @@
 "use client";
 import gsap from "gsap";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef} from "react";
 import Image from "next/image";
 
 export const Title = () => {
@@ -94,7 +94,7 @@ export const Title = () => {
                 ref={title}
                 className='text-3xl md:text-5xl lg:text-6xl font-bold leading-tight'
               >
-                Hello, I'm{' '}
+                Hello, I&#39;m{' '}
                 <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
                   Ezzeldeen Tantawy
                 </span>
@@ -104,7 +104,7 @@ export const Title = () => {
                 ref={subject}
                 className='text-xl md:text-3xl lg:text-4xl font-semibold'
               >
-                I'm a{' '}
+                I&#39;m a{' '}
                 <span className="relative">
                   <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
                     Full-Stack Developer
@@ -116,7 +116,7 @@ export const Title = () => {
 
             <p className='text-lg md:text-xl max-w-2xl'>
               Passionate about creating innovative web solutions with modern technologies. 
-              Let's build something amazing together!
+              Let&#39;s build something amazing together!
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -136,7 +136,7 @@ export const Title = () => {
                 href="#contact"
                 className='inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-xl border-2 transition-all duration-300 hover:scale-105'
               >
-                💬 Let's Talk
+                💬 Let&#39;s Talk
               </a>
             </div>
           </div>

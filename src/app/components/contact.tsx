@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Mail, Phone, MapPin, User, Briefcase, Globe, Github, Linkedin } from "lucide-react"; // Added new icons
+import { Mail, Phone, MapPin, User, Github, Linkedin } from "lucide-react"; // Added new icons
 
 interface FormData {
   name: string;
