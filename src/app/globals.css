@@ -14,6 +14,9 @@
 .nav-item:first-child{
   color: #f57812;
 }
+.nav-link.active{
+  color: #f57812;
+}
 .grad-border {
   padding: 3px;
   background: conic-gradient(red, yellow, green, cyan, blue);
@@ -30,6 +33,16 @@
   transform: scale(1.07);
   cursor: pointer;
 }
+.custom-gradient {
+  background-image: linear-gradient(
+    to bottom right,
+    #1f2937 0%,     /* gray-800 */
+    #1f2937 20%,    /* gray-800 */
+    #0891b2 50%,    /* gray-600 */
+    #1f2937 80%,    /* gray-800 again */
+    #1f2937 100%
+  );
+}
 @media (max-width: 638px) {
   .service-card{
     height: 350px;
@@ -38,6 +51,16 @@
     width: 300px;
     height: 150px;
   }
+  .custom-gradient {
+  background-image: linear-gradient(
+    to right,
+    #1f2937 0%,     /* gray-800 */
+    #1f2937 20%,    /* gray-800 */
+    #0891b2 50%,    /* gray-600 */
+    #1f2937 80%,    /* gray-800 again */
+    #1f2937 100%
+  );
+}
 }
 @media (min-width: 638px) and (max-width: 767px) {
   .service-card {
