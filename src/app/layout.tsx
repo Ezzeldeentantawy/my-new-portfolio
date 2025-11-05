@@ -36,6 +36,7 @@ export default function RootLayout({
         portfolio, software engineer, programming, web design, HTML, CSS, developer Egypt" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Ezzeldeen" />
+        <meta name="google-site-verification" content="6sPsC4QNjEtDueJZmsjya28oDaBW-AkRmZLQEBetAN4" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-800 text-white`}
