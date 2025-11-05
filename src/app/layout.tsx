@@ -30,6 +30,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CB3QKTR6VJ"></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-CB3QKTR6VJ');`}
+        </script>
         <meta name="keywords" content="Ezzeldeen, full-stack developer, 
         web developer, React developer, Laravel developer, JavaScript, PHP, 
         MySQL, frontend, backend, 
