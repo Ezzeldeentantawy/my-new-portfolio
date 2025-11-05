@@ -19,7 +19,7 @@ export const ProjectWLink: React.FC<Props> = ({link, title, src, alt}) => {
                 rel="noreferrer"
                 >
                     <Image src={src} 
-                    className="gallery-image rounded-2xl" 
+                    className="gallery-image rounded-2xl object-cover" 
                     alt={alt}
                     loading="lazy"
                     width={1000}

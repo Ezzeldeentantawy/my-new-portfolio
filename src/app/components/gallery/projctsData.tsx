@@ -23,17 +23,23 @@ export const ProjectData = [
         category: [
             "Website",
             "Retaurant",
-            "HTML,CSS & JS",
+            "Vanilla Projects",
         ],
         component: <Layali />,
     },
     {
-        id: 3,
+        id: 4,
         category: [
             "Website",
-            "Big Projects",
-            "nextjs",
+            "Vanilla Projects",
         ],
-        component: <ProjectCard />,
+        component: (
+            <ProjectWLink
+                link="https://tasks-management-native-app.netlify.app/"
+                title="Task management app"
+                src="/gallery/todo.png"
+                alt="my old portfolio image"
+            />
+        ),
     },
 ];
