@@ -1,6 +1,6 @@
 import { ProjectWLink } from "./projectWithLinkCard";
 import { Layali } from "./projectsWithImgGallery/layali";
-import { ProjectCard } from "./comingSoonProjectsComponent/projectCard";
+// import { ProjectCard } from "./comingSoonProjectsComponent/projectCard";
 export const ProjectData = [
     {
         id: 1,
